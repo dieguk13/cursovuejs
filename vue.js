@@ -1,7 +1,8 @@
 var app = new Vue ({
 el: ".vue",
 data: {
-    mensaje: "Aprende vue.js fácilmente"
+    mensaje: "Aprende vue.js fácilmente",
+    src:"https://es.vuejs.org/images/logo.png"
 },
 methods: {
     mostrarMensaje: function () {
